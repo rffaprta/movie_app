@@ -9,3 +9,7 @@ root.render(
     <App />
   </React.StrictMode>,
 );
+
+<BrowserRouter basename="/movie_app">
+  <App />
+</BrowserRouter>;
